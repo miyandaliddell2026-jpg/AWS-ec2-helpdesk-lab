@@ -10,7 +10,7 @@ The lab focuses on hands-on cloud support skills, including instance setup, remo
 
 ## 📸 Visual Walkthrough
 
-This lab is documented step-by-step using real screenshots from the AWS console and Windows login process to demonstrate the full workflow.
+This lab is documented step-by-step using real screenshots from the AWS console and Windows login process.
 
 ---
 
@@ -30,7 +30,7 @@ Navigate to:
 
 EC2 → Instances → Launch an instance
 
-![Step 1 - Launch Instance](./images/Step 1.png)
+![Launch Instance](./step1.png)
 
 ### Configuration:
 - Name: HelpDesk
@@ -40,15 +40,15 @@ EC2 → Instances → Launch an instance
 
 ---
 
-## 🔐 Step 2: Configure Access & Connect
+## 🔐 Step 2: Connect to Instance
 
 After launching the instance:
 
-- Select the instance
+- Select your instance
 - Click **Connect**
 - Navigate to the **RDP Client tab**
 
-![Step 2 - RDP Connection](./images/Step 2.png)
+![RDP Connection](./step2.png)
 
 Then:
 
@@ -59,11 +59,9 @@ Then:
 
 ## 💻 Step 3: Login to Windows Server
 
-Open the downloaded `.rdp` file.
+Open the downloaded `.rdp` file and enter credentials:
 
-Enter the credentials:
-
-![Step 3 - Windows Login](./images/Step 3.png)
+![Windows Login](./step3.png)
 
 - Username: Administrator  
 - Password: Retrieved from AWS  
@@ -104,10 +102,11 @@ This system can now be used to simulate real help desk tasks such as:
 - Windows Server access and navigation  
 - Remote Desktop (RDP) connectivity  
 - Basic cloud networking and security awareness  
-- Technical documentation and workflow explanation  
+- Technical documentation  
 
 ---
 
 ## 📊 Summary
 
 This lab provides hands-on experience with deploying and accessing a Windows EC2 instance in AWS. It reflects real-world help desk responsibilities, including system setup, secure remote access, and user support workflows.
+
